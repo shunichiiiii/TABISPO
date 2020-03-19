@@ -49,6 +49,6 @@ test:
 #
 production:
   <<: *default
-  database: TABISPO_production
-  username: TABISPO
-  password: <%= ENV['TABISPO_DATABASE_PASSWORD'] %>
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
