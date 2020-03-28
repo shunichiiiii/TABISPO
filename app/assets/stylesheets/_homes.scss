@@ -1,0 +1,110 @@
+.home {
+  margin: 0 auto;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  background-color: whitesmoke;
+  &__right {
+    margin-left: 30px;
+    height: 100%;
+    &--upper {
+      height: 360px;
+      width: 360px;
+      border: 1px solid;
+      border-color: #cacaca;
+      background-color: white;
+      padding: 40px;
+      margin-bottom: 30px;
+      color: black;
+      &__logo {
+        font-size: 40px;
+        font-weight: bold;
+        text-align: center;
+      }
+      &__text {
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+        line-height: 60px;
+      }
+      &__email {
+        font-size: 16px;
+        margin-bottom: 5px;
+      }
+      &__pass {
+        font-size: 16px;
+        margin-bottom: 5px;
+      }
+      &__input {
+        height: 40px;
+        border: 1px solid;
+        border-color: #cacaca;
+        border-radius: 3px;
+        margin-bottom: 10px;
+      }
+      &__btn {
+        height: 40px;
+        // border: 1px solid;
+        border-radius: 3px;
+        border-color: #cacaca;
+        margin-top: 30px;
+        color:white;
+        background-color: rgb(121, 255, 255);
+        text-align: center;
+        font-weight: bold;
+        line-height: 40px;
+      }
+    }
+    &--under {
+      height: 90px;
+      width: 360px;
+      padding: 20px 40px;
+      background-color: white;
+      border: 1px solid;
+      border-color: #cacaca;
+      &__text {
+        font-size: 16px;
+        color: black;
+        margin-bottom: 10px;
+      }
+      &__btn {
+        height: 40px;
+        border-radius: 3px;
+        color: white;
+        background-color: rgb(0, 174, 255);
+        text-align: center;
+        line-height: 40px;
+      }
+    }
+  }
+
+
+  &__left {
+    height: 650px;
+    width: 600px;
+    background-color: yellow;
+    &--upper {
+      height: 33%;
+      background-color: red;
+      display: flex;
+    }
+    &--center {
+      height: 33%;
+      background-color: blue;
+      display: flex;
+    }
+    &--under {
+      height: 34%;
+      background-color: green;
+      display: flex;
+    }
+  }
+}
+
+// ↓ホーム画面左側の写真部分
+
+.picture {
+  width: 200px;
+  height: 100%;
+  background: image-url("L1010945.JPG") center top/cover no-repeat;
+}
