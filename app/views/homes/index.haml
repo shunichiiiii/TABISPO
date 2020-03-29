@@ -20,8 +20,11 @@
       .home__right--upper__input
       .home__right--upper__pass パスワード
       .home__right--upper__input
-      .home__right--upper__btn ログイン
+      -# .home__right--upper__btn ログイン
+      = link_to 'ログイン', new_user_session_path, class: "home__right--upper__btn"
     .home__right--under
       .home__right--under__text アカウントをお持ちでないですか？
-      .home__right--under__btn 新規作成
+      -# .home__right--under__btn 新規作成
+      = link_to '新規作成', new_user_registration_path, class: "home__right--under__btn"
+
   
