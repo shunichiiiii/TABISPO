@@ -7,7 +7,7 @@
           = f.text_field :place, class:"posts__input"
         .posts__frame--center
           .posts__text image
-          = f.file_field :image, class: "posts__image__input"
+          = f.file_field :image, multiple: true, class: "posts__image__input"
         .posts__frame--lower
           .posts__text text
           = f.text_area :text, class: "posts__text__input"
