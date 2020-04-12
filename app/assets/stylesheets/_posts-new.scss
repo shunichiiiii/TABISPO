@@ -1,0 +1,74 @@
+.posts {
+  padding: 30px;
+  &__frame {
+    width: 600px;
+    height: 100%;
+    background-color: white;
+    margin: 0 auto;
+    padding: 40px;
+
+    // ↓大枠+ボタン
+
+    &--upper {
+      height: 150px;
+    }
+    &--center {
+      height: 300px;
+    }
+    &--lower {
+      height: 500px;
+    }
+    &__btn {
+      height: 50px;
+      width: 100px;
+      background-color: white;
+      margin: 0 auto;
+      text-align: center;
+      font-weight: bold;
+      font-size: 18px;
+      color: #04fff2;
+      line-height: 50px;
+      text-decoration: none;
+      border: 1px solid;
+      border-color: #04ffea;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  // ↓細かい部分
+
+  &__text {
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+  }
+  &__input {
+    height: 50px;
+    width: 550px;
+    margin: 0 auto;
+    margin-top: 15px;
+    border: 1px solid;
+    border-color: gray;
+    border-radius: 10px;
+  }
+  &__image__input {
+    height: 200px;
+    width: 550px;
+    margin: 0 auto;
+    margin-top: 15px;
+    border: 1px solid;
+    border-color: gray;
+    border-radius: 10px;
+  }
+  &__text__input {
+    height: 400px;
+    width: 550px;
+    margin: 0 auto;
+    margin-top: 15px;
+    border: 1px solid;
+    border-color: gray;
+    border-radius: 10px;
+  }
+}

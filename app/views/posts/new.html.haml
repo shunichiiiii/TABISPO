@@ -1,0 +1,14 @@
+.wrapper
+  .posts
+    .posts__frame
+      = form_for @posts do |f|
+        .posts__frame--upper
+          .posts__text place
+          = f.text_field :place, class:"posts__input"
+        .posts__frame--center
+          .posts__text image
+          = f.file_field :image, class: "posts__image__input"
+        .posts__frame--lower
+          .posts__text text
+          = f.text_area :text, class: "posts__text__input"
+        = f.submit "投稿する", class: "posts__frame__btn"

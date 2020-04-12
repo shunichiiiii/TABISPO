@@ -1,0 +1,27 @@
+.index {
+  padding: 30px;
+  &__frame {
+    width: 1000px;
+    margin: 0 auto;
+    &__map {
+      height: 600px;
+      width: 1000px;
+      background-color: yellow;
+      background: image-url("nihon.jpg") center top/cover no-repeat;
+      margin-bottom: 50px;
+    }
+    &__photo {
+      height: 100%;
+      width: 1000px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      &__data {
+        height: 300px;
+        width: 300px;
+        margin-top: 30px;
+        background: image-url("L1010945.JPG") center top/cover no-repeat;
+      }
+    }
+  }
+}
