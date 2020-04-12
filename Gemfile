@@ -67,5 +67,7 @@ group :production do
 end
 
 
+gem 'pry-rails'
+gem 'font-awesome-sass'
 gem 'haml-rails'
 gem 'devise'
