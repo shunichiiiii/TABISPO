@@ -70,4 +70,5 @@ end
 gem 'pry-rails'
 gem 'font-awesome-sass'
 gem 'haml-rails'
+gem "aws-sdk-s3", require: false
 gem 'devise'
