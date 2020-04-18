@@ -1,7 +1,7 @@
 .head
   .head__left
-    = link_to 'TABISPO', posts_path, class: "head__left__logo"
+    = link_to "TABISPO", posts_path, class: "head__left__logo"
   .head__right
     .head__right__icon
-    = link_to '投稿する', new_post_path, class: "head__right__post"
-    .head__right__logout ログアウト
+    = link_to "投稿する", new_post_path, class: "head__right__post"
+    = link_to "ログアウト", destroy_user_session_path, method: :delete, class: "head__right__logout"
